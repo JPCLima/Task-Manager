@@ -1,4 +1,3 @@
-/* eslint-disable new-cap */
 const mongoose = require('mongoose');
 
 const taskSchema = new mongoose.Schema({
@@ -22,7 +21,7 @@ const taskSchema = new mongoose.Schema({
   },
   createdAt: {
     type: Date,
-    default: new Date.now(),
+    default: Date.now(),
   },
   completionDate: {
     type: Date,
