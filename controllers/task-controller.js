@@ -120,3 +120,24 @@ exports.getByStatus = async (req, res) => {
     });
   }
 };
+
+// PRIORITY
+exports.getByStatus = async (req, res) => {
+  try {
+    // EXECUTE QUERY
+    const tasks = await Task.find({ status: req.params.status });
+
+    // SEND RESPONSE
+    res.status(200).json({
+      status: 'success',
+      data: {
+        tasks,
+      },
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: 'fail',
+      message: err,
+    });
+  }
+};
