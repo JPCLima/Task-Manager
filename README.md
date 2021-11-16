@@ -19,3 +19,12 @@ Rest API:
 
 - [ ] GET /api/v1/tasks?priority=1 - Get All Tasks by priority
 - [ ] ...
+
+## Database schema
+
+- Task name
+- Tasks description
+- Tasks priority
+- Tasks status
+- Tasks Creation date
+- Task completion date
