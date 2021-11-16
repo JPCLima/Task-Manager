@@ -14,4 +14,6 @@ router
   .patch(taskController.updateTask)
   .delete(taskController.deleteTask);
 
+router.route('/status/:status').get(taskController.getByStatus);
+
 module.exports = router;
