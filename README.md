@@ -4,16 +4,16 @@ Rest API:
 
 ## Todos:
 
-- [ ] Initialize project
-- [ ] Connect with database
+- [x] Initialize project
+- [x] Connect with database
 
 ## Primary routes:
 
-- [ ] GET /api/v1/tasks - Get All Tasks
-- [ ] POST /api/v1/tasks - Create Tasks
-- [ ] GET /api/v1/tasks - Get Task
-- [ ] PATCH /api/v1/tasks - Update Task
-- [ ] DELETE /api/v1/tasks - Delet Task
+- [x] GET /api/v1/tasks - Get All Tasks
+- [x] POST /api/v1/tasks - Create Tasks
+- [x] GET /api/v1/tasks - Get Task
+- [x] PATCH /api/v1/tasks - Update Task
+- [x] DELETE /api/v1/tasks - Delet Task
 
 ## Query routes
 
