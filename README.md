@@ -17,8 +17,11 @@ Rest API:
 
 ## Query routes
 
-- [ ] GET /api/v1/tasks?priority=1 - Get All Tasks by priority
-- [ ] ...
+- [ ] Filtering
+- [ ] Sorting
+- [ ] Limit Fields
+- [ ] Pagination
+- [ ] Aliasing
 
 ## Database schema
 
